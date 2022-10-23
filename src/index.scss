@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App {
+  h2 {
+    color: blue;
+      span {
+        color: red;
+      }
+    }
+}
