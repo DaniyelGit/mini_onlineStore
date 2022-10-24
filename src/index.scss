@@ -25,7 +25,80 @@ p {
 }
 
 .header {
-  border-bottom: 1px solid #EAEAEA;;
+  border-bottom: 1px solid #EAEAEA;
+
+  &__info {
+    margin-left: 16px;
+
+    h3 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #9D9D9D;
+    }
+  }
+}
+
+.nav {
+  &__price {
+    span {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      color: #5C5C5C;
+    }
+  }
+
+  &__user {
+    img {
+      margin-left: 30px;
+    }
+  }
+}
+
+.card {
+  padding: 10px 30px 30px 30px;
+  width: 220px;
+  border-radius: 40px;
+  border: 1px solid #f3f3f3;
+
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 14px 0 14px;
+    text-align: center;
+  }
+
+  &__price {
+    span {
+      font-size: 11px;
+      color: #BDBDBD;
+      font-weight: 500;
+      line-height: 13px;
+      text-transform: uppercase;
+    }
+    b {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+    }
+  }
+}
+
+.button {
+  background-color: #ffffff;
+  border: 1px solid #F2F2F2;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
 }
 
 
