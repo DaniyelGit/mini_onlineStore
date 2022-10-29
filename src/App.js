@@ -63,7 +63,7 @@ function App() {
 						<div className="cartItem d-flex align-center">
 							<div style={{ backgroundImage: 'url(/images/products/image-2.jpg)' }} className="cartItem__img"></div>
 							<div className="cartItem__content flex mr-20">
-								<p>Мужские Кроссовки Nike Air Max 270</p>
+								<p>Мужские Кроссовки Nike Air Max 271</p>
 								<b>350.00 руб.</b>
 							</div>
 							<img className="cartItem__remove-btn" src="/images/btn-remove.svg" alt="btn-remove" />
